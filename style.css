@@ -1,0 +1,153 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #aeb0bf;
+    background: #654ea3; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #654ea3, #eaafc8); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #654ea3, #eaafc8);
+    margin-top: 5rem;
+}
+.container{
+    width: 1000px;
+    height: 700px;
+    background-color: #14163E;
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+}
+
+.button{
+    border-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.button_type_1{
+    background-color: #22254da1;
+    min-width: 49%;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    opacity: 85%;
+}
+
+.button_left{
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.button_right{
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.login{
+    display: inline-block;
+    width: 40%;
+    margin: auto;
+    height: 83%;
+}
+
+.button_type_1_container{
+    display: inline-block;
+    width: 100%;
+    margin: 0;
+}
+
+.button_type_1:hover{
+    color: #F03B7A;
+    opacity: 100%;
+}
+
+.button_type_2{
+    background-color: #F03B7A;
+}
+
+.button_signin{
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.button_type_2:hover{
+    background-color: #eb91b6;
+}
+
+.sign-in{
+    margin: 60px 0;
+    color: #AEB0BF;
+    font-weight: 100;
+}
+
+.login-info{
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.login-descript{
+    margin-bottom: 5px;
+}
+
+.footer{
+    width: 100%;
+    display: inline-block;
+    background-color: #1a1e50;
+    height: 17%;
+    margin: 0 auto;
+    border-radius: 0 0 10px 10px;
+}
+
+.footer-item{
+    display: inline-block;
+    padding: auto;
+    margin: 10px;
+    margin-top: 4.5%;
+}
+
+.button-footer{
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
+.login-data{
+    width: 96%;
+    height: 45px;
+    background-color: #0f082967;
+    border-radius: 5px;
+    border-style: groove;
+    border-color: #52557e3d;
+    padding-left: 10px;
+    color: whitesmoke;
+}
+
+.login-data::placeholder{
+    color: #aeb0bf56;
+}
+
+.password-container{
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+    margin-top: 30px;
+}
+
+.password-sep{
+    display: inline-block;
+    margin: 0;
+    width: 49%;
+}
+
+.forgot{
+    color: #F03B7A;
+    text-decoration: none;
+    font-size: small;
+    text-align: right;
+    opacity: 85%;
+}
